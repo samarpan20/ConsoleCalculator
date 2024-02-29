@@ -1,8 +1,8 @@
-package calculator;
+package calculator.invoker;
 
 import calculator.commands.Command;
 
-public class Calculator { //Invoker Class
+public class CalculatorInvoker { //Invoker Class
     private Command command;
 
     public void setCommand(Command command) {

@@ -1,6 +1,6 @@
 package calculator.commands.impl;
 
-import calculator.CalculatorHistory;
+import calculator.receiver.CalculatorHistory;
 import calculator.commands.Command;
 
 public class MultiplicationCommand implements Command {
@@ -14,7 +14,7 @@ public class MultiplicationCommand implements Command {
     @Override
     public void execute(double num1, double num2) {
         double result = num1 * num2;
-        history.addOperation(num1 + " * " + num2 + " + " + result);
+        history.addOperation("multiply(" + num1 + " , " + num2 + ") = " + result);
         System.out.println(result);
     }
 }

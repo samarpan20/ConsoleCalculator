@@ -1,6 +1,6 @@
 package calculator.commands.impl;
 
-import calculator.CalculatorHistory;
+import calculator.receiver.CalculatorHistory;
 import calculator.commands.Command;
 
 public class DivisionCommand implements Command {
@@ -15,7 +15,7 @@ public class DivisionCommand implements Command {
     public void execute(double num1, double num2) {
         if (num2 != 0) {
             double result = num1 / num2;
-            history.addOperation(num1 + " / " + num2 + " + " + result);
+            history.addOperation("divide(" + num1 + " , " + num2 + ") = " + result);
             System.out.println(result);
         } else {
             System.out.println("Cannot divide by Zero");

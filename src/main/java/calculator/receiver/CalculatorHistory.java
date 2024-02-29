@@ -1,4 +1,4 @@
-package calculator;
+package calculator.receiver;
 
 import java.util.List;
 import java.util.Stack;
