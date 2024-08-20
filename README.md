@@ -44,6 +44,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Author
 
-- [Manish](https://github.com/iampushkar)
+- [Samarpan](https://github.com/samarpan20)
 
 Feel free to fork, contribute, or provide feedback on this project!
